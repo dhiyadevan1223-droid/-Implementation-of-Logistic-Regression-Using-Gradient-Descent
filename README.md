@@ -87,10 +87,13 @@ y_test_pred = predict(X_test)
 accuracy = np.mean(y_test_pred == y_test)
 print("Accuracy:", accuracy)
 print("confusion matrix:",classification_report(y_test,y_test_pred))
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_test_pred))
 ```
 
 ## Output:
-<img width="752" height="238" alt="image" src="https://github.com/user-attachments/assets/468be7d2-8778-4ba0-b83c-7cf56ee7982b" />
+<img width="867" height="290" alt="image" src="https://github.com/user-attachments/assets/76d19610-09d8-4431-adad-148e4e9df6a8" />
+
 
 
 
